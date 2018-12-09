@@ -719,8 +719,6 @@ int refresh()()
 int resetty();
 int reset_prog_mode();
 int reset_shell_mode();
-//TODO
-__gshared int function(int line, int function(WINDOW* win, int cols) init) ripoffline;
 int savetty();
 int scanw(char* fmt, ...);
 int scr_dump(char *filename);
